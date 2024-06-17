@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Roboto+Mono&display=swap");
+
+@media screen and (max-width: 800px) {
+  .cardSection {
+    height: 100% !important;
+    padding-top: 200px !important;
+  }
+  .pc_container {
+    flex-direction: column;
+    gap: 80px;
+    /* justify-content: space-between !important; */
+    align-items: flex-start;
+    padding-left: 20px !important;
+  }
+  .leftDetail {
+    width: 100% !important;
+  }
+  .rightImg {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .cardSection {
+    height: 80% !important;
+    padding-top: 200px !important;
+
+  }
+  .pc_container{
+    /* padding: o 20px !important; */
+  }
+
+  .rightImg {
+    min-height: 300px !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .rightImg img {
+    width: 110% !important;
+  }
+
+  .rightImg {
+    min-height: 230px !important;
+  }
+}

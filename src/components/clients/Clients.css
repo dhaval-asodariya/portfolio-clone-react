@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Roboto+Mono&display=swap');
+
+.clientSection{
+    background: white;
+    margin-bottom: 100px;
+}
+.clientContainer{
+   text-align: left;
+    width: 100%;
+    /* height: 100%; */
+    max-width: 1020px;
+    margin: auto;
+    padding: 0px 60px;
+}
+.title{
+    color: #ef412d;
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    font-family: 'Exo 2', sans-serif;
+}
+.client_logos{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.cLogo{
+    width: 25%;
+}
+.cLogo img{
+    width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+
+    .clientContainer{
+        padding: 0 20px;
+    }
+    .cLogo{
+        width: 50%;
+    }
+}

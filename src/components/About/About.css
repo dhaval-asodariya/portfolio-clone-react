@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Roboto+Mono&display=swap');
+
+body{
+    color: rgb(33, 37, 41);
+    text-align: left;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+.about-section{
+margin: 100px 0;
+text-align: left;
+}
+.about-container{
+    width: 1200px;
+    max-width: 100%;
+    /* border: 10px solid black;
+    height: 400px; */
+    margin: 0 auto;
+    padding: 0 60px;
+}
+.h2-title{
+    color: #ef412d;
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    font-family: 'Exo 2', sans-serif;
+
+}
+.about-container p{
+    margin-bottom: 1rem;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: "Roboto Mono", monospace;
+ 
+    
+}
+.about-container p a{
+    position: relative;
+    color: white;
+   cursor: pointer;
+}
+.about-container p a::before{
+position: absolute;
+content: '';
+z-index: -1;
+background: linear-gradient(90deg, rgb(239, 65, 45), rgb(79, 41, 32));
+height: 100%;
+width: 100%;
+bottom: -1px;
+left: 0;
+transition: all 0.3s ease 0s;
+}
+.about-container p a:hover{
+    color: rgb(33, 37, 41);
+}
+.about-container p a:hover::before{
+    height: 2px;
+   
+   
+}
+
+@media screen and (max-width: 550px) {
+    .about-container{
+        padding: 0 15px;
+    }
+}

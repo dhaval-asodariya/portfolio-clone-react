@@ -1,0 +1,21 @@
+
+.show-accordion{
+    display: none;
+}
+
+
+@media screen and (max-width: 550px) {
+    .experience-container{
+        padding: 0 20px !important;
+    }
+  
+
+}
+@media screen and (max-width: 600px) {
+    .exDiscription{
+        display: none !important;
+    }
+    .show-accordion{
+        display: block;
+    }
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Roboto+Mono&display=swap');
+
+.contectSection{
+    background: white;
+    margin: -15px 0px;
+    text-align: left;
+
+}
+
+.contectContainer{
+    width: 1020px;
+    max-width: 100%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+}
+.contectContainer h2{
+    font-size: 40px;
+    margin-top: 0%;
+    margin-bottom: 5px;
+    line-height: 51px;
+}
+.connect-form{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 30px;
+    max-width: 100%;
+}
+.inputGroup{
+    width: 100%;
+    display: flex;
+    /* -webkit-box-pack: justify; */
+    justify-content: space-between;
+}
+.inputGroup .sInputBox{
+width: 49%;
+}
+.inputField{
+    padding: 2px;
+    border: 1px solid rgb(33, 37, 41);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.connect-form input, .connect-form textarea{
+    font-family: "Roboto Mono";
+    background: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 1em;
+
+}
+.text-msg{
+    width: 100%;
+    line-height: 1.6;
+    resize: vertical;
+    min-height: 150px;
+}
+.conformation{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.tic-box{
+    width: 304px;
+    height: 78px;
+    background: black;
+}
+.submit-btn{
+    color: rgb(33, 37, 41);
+    font-family: "Roboto Mono";
+
+    background: white;
+    height: 60px;
+    width: 210px;
+    max-width: 100%;
+    border-radius: 0px;
+    border: 1px solid black;
+    /* border: 0.1rem solid rgb(33, 37, 41) !important; */
+    /* opacity: 0.5 !important; */
+    pointer-events: none !important;
+}
+
+
+@media screen and (max-width: 600px) {
+    .contectContainer{
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width: 485px) {
+.inputGroup{
+flex-direction: column;
+}
+.inputGroup .sInputBox{
+    width: 100%;
+}
+}

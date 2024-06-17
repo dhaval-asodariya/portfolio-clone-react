@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Roboto+Mono&display=swap');
+
+
+.footerSection{
+background: white;
+padding-top: 30px;
+margin-bottom: 10px;
+position: relative;
+text-align: left;
+}
+
+.footer_container{
+    width: 1020px;
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 0 60px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left_data{
+    width: 555px;
+    max-width: 100%;
+}
+.left_data h4{
+    font-size: 40px;
+    line-height: 53px;
+    margin-bottom: 30px;
+}
+.left_data button{
+    pointer-events: all;
+    background: transparent;
+    border: 1px solid rgb(33, 37, 41);
+    height: 60px;
+    width: 210px;
+    max-width: 100%;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+}
+.right_social ul{
+    padding-left: 17.5px;
+    margin-top: 0;
+}
+.right_social li{
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+.right_social li a{
+    padding: 2px 4px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    color: rgb(33, 37, 41);
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    z-index: 10;
+    
+}
+.copyright a{
+    color: rgb(33, 37, 41);
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+    padding: 0.2rem 0.4rem;
+    
+}
+ .beforeEffect::before{
+    height: 0;
+    width: 100%;
+    position: absolute;
+    content: '';
+ z-index: -1;
+    bottom: -2px;
+    left: -2px;
+    background: linear-gradient(90deg, rgb(239, 65, 45), rgb(79, 41, 32));
+    transition: height 0.3s ease;
+}
+.beforeEffect:hover::before{
+ 
+  height: 100%;
+}
+
+.right_social li a:hover ,a:hover {
+    color: white;
+}
+
+.footer_container::after{
+    content: "";
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: -1rem;
+    left: 0px;
+    background: linear-gradient(90deg, rgb(239, 65, 45), rgb(79, 41, 32));
+
+}

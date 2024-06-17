@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Roboto+Mono&display=swap');
+
+
+.blogSection{
+    margin-top: -40px;
+}
+.blog-head{
+    height: 450px;
+    background: linear-gradient(90deg, rgb(239, 65, 45), rgb(79, 41, 32));
+text-align: left;
+}
+.head-inner{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* align-items: center; */
+    justify-content: center;
+    width: 1020px;
+    max-width: 100%;
+    margin: auto;
+    padding: 0px 60px;
+}
+.head-inner h1{
+    margin: 0px;
+    color: white;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.blogs-wraper{
+    padding: 50px 0;
+}
+.blog-wrap-inner{
+    width: 1020px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0px 60px;
+}
+
+@media screen and (max-width: 640px) {
+    .head-inner , .blog-wrap-inner{
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .head-inner , .blog-wrap-inner{
+        padding: 0 20px;
+    }
+  
+}

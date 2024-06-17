@@ -1,0 +1,73 @@
+const allBlogs = [
+{
+    id:1,
+    date:'MAY 14TH, 2020',
+    title:'How To Submit Gravity Forms With Javascript',
+    discription:'I just wrapped up my first project using Wordpress as a headless CMS with React (well, Gatsby). It was pretty nice going back to using…',
+    link:'https://chaseohlson.com/gravity-forms-javascript',
+},
+{
+    id:2,
+    date:'UPDATED: FEBRUARY 4TH, 2020',
+    title:'Overriding Gatsby-Link for Mixed Anchor Navigation',
+    discription:'Update: I ended up the building Gatsby smooth scroll anchor link functionality from this post into a Gatsby plugin. Check it out on Github…',
+    link:'https://chaseohlson.com/gatsby-link-anchor-navigation',
+},
+{
+    id:3,
+    date:'DECEMBER 9TH, 2019',
+    title:'Integrating Hubspot Forms with Gatsby',
+    discription:'Hubspot is a really awesome CRM tool that connects potential customers to any number of digital touchpoints in your websites & applications…',
+    link:'https://chaseohlson.com/hubspot-forms-gatsby',
+},
+{
+    id:4,
+    date:'OCTOBER 21ST, 2019',
+    title:'How to Proxy API Requests in Development Using Parcel Bundler',
+    discription:"I'm a big fan of using Parcel to bundle my website/web app assets. It goes by the 'it just works' mantra, far removed from it's alternative…",
+    link:'https://chaseohlson.com/proxy-api-requests-parcel',
+},
+{
+    id:5,
+    date:'AUGUST 22ND, 2019',
+    title:'Using Plyr in Gatsby Projects for Youtube & Vimeo',
+    discription:"Video is always pretty annoying to deal with. So are iframes. I really like using Plyr for skinning 3rd party videos because it's…",
+    link:'https://chaseohlson.com/plyr-gatsby-youtube-vimeo',
+},
+{
+    id:6,
+    date:'JUNE 19TH, 2019',
+    title:'My Gatsby DatoCMS Starter',
+    discription:"I feel like I'm only allowed to write three Gatsby-related blog posts in a row, so I'll try to make this one short & sweet. After spinning…",
+    link:'https://chaseohlson.com/gatsby-datocms-starter',
+},
+{
+    id:7,
+    date:'JUNE 5TH, 2019',
+    title:'Using React Context in Gatsby Projects',
+    discription:"I'll admit, it took me a while to finally adopt both React context & hooks in my day-to-day React vocabulary. Like most things though…",
+    link:'https://chaseohlson.com/react-context-gatsby',
+},
+{
+    id:8,
+    date:'FEBRUARY 18TH, 2019',
+    title:'Better JAMstack Email with Cloud Functions & Mailgun',
+    discription:'Email is super annoying, everone knows this. That might be a bit of an exaggeration, but every time I find an easy way to tackle email I…',
+    link:'https://chaseohlson.com/jamstack-mailgun',
+},
+{
+    id:9,
+    date:'APRIL 19TH, 2017',
+    title:'How To Manually Add User in WordPress',
+    discription:'I recently dealt with a pretty unfortunate situation in which I needed to do a website handoff with the former developer of one of my…',
+    link:'https://chaseohlson.com/manually-add-user-wordpress',
+},
+{
+    id:10,
+    date:'AUGUST 4TH, 2016',
+    title:'406 Error While Using Core WordPress Functions on GoDaddy',
+    discription:'I had a client contact me a few days ago about a bizarre issue that I had never seen before. Not only had I never experienced a 406 error…',
+    link:'https://chaseohlson.com/406-error-wordpress',
+},
+];
+export default allBlogs
